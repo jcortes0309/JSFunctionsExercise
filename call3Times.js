@@ -16,4 +16,4 @@ var hello = function() {
   console.log('Hello, world!');
 };
 
-call3Times(hell);
+call3Times(hello);
