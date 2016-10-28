@@ -10,6 +10,7 @@
 // 'NASA'
 
 var words = ['very', 'important', 'person'];
+var more_words = ['national', 'aeronautics', 'space', 'administration'];
 
 function firstChar(word) {
   return word[0].toUpperCase();
@@ -23,3 +24,4 @@ function acronym(words) {
 }
 
 console.log(acronym(words));
+console.log(acronym(more_words));
